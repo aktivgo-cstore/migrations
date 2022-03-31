@@ -3,7 +3,7 @@ CREATE TABLE users (
     fullName        varchar(255)            NOT NULL,
     email           varchar(255)            NOT NULL,
     hashPassword    varchar(255)            NOT NULL,
-    token           varchar(255)            NOT NULL,
+    token           varchar(255)            NULL,
     isActivated     tinyint(1)              NOT NULL DEFAULT 0,
     activationLink  varchar(255)            NULL,
     role            enum('user', 'admin')   NOT NULL DEFAULT 'user'
