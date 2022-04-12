@@ -10,4 +10,4 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (fullName, email, hashPassword, token, isActivated, role) VALUE
-    ('Администратор', 'admin@gmail.dev', '$2a$04$oz.EwJV/72QMqova.sBna.94Xt3B8PCFbb878Q9DJquKZ7Rdjezlm', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmRldiIsImlzQWN0aXZhdGVkIjoxLCJyb2xlIjoiYWRtaW4ifQ.YTidzwyVqLdcfmJ5Wykpi-1iV8xArBQZCI9J2mpopNA', 1, 'admin');
+    ('Администратор', 'admin@gmail.dev', '$2a$04$oz.EwJV/72QMqova.sBna.94Xt3B8PCFbb878Q9DJquKZ7Rdjezlm', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmRldiIsImlzX2FjdGl2YXRlZCI6MSwicm9sZSI6ImFkbWluIn0.Z3GEnWOBrk_057ulIAepizH4uFM4hmbwZBoDGe1oHLo', 1, 'admin');
